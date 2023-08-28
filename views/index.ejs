@@ -27,7 +27,7 @@
 
         <li><%= recipe.ingredients.salsa.name %></li>
         <%recipe.ingredients.toppings.forEach(topping => { %>
-        <li><%= topping.name %></li>
+        <li><%= topping.quantity %> of <%= topping.name %></li>
 
         <% }); %>
       </ul>
